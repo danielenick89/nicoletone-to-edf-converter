@@ -1,0 +1,7 @@
+# Tool to try and convert .e NicoletOne files into .edf. It just concatenates all segments and takes the 1-8 channels, assumes 
+# sampling of 500Hz (see convert.py). Could be useful for someone else starting making a serious converter.
+
+# USAGE:
+sh convert.sh <source.e> <out.edf>
+
+# Beware that it uses the temporary folder tmp/ to write channels' CSV.
